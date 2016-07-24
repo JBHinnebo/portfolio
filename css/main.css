@@ -1,0 +1,233 @@
+/* #############################################################################
+##############################   OVERALL STYLES   ##############################
+############################################################################## */
+
+body{
+  color: #423d39;
+  font-family: 'Sanchez', serif;
+  background-color: #fff;
+}
+
+.container {
+  width:960px
+  margin:10px auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+/* Fifth level heading */
+.horizontal_line {
+  border-bottom: 2px solid #DDD;
+}
+
+p {
+  font-size: 1.10rem;
+}
+
+.navbar {
+  font-size: 1.20rem;
+}
+
+
+/* =============================================================================
+   HEADER
+============================================================================== */
+
+.header {
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+  border-bottom: 40px solid #DDD;
+}
+
+.navbar {
+  position: absolute;
+  margin: auto;
+  background-color: #DDD;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+.navbar a {
+  margin-top: -6px;
+  padding: 10px;
+  text-decoration: none;
+  color: #423d39;
+}
+
+.Entete{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  margin:auto 0 30px;
+  padding: 75px;
+  height:200px;
+
+}
+
+/* First level heading */
+.h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 4em;
+}
+
+/* Paragraph below the h1 in the .Entete */
+.subtitle {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.4em;
+}
+
+
+/* =============================================================================
+   BODY
+============================================================================== */
+
+/* Decorative horizontal line */
+.decoration {
+  height:40px;
+  width:100%;
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+
+.corps {
+  margin:auto 10%;
+  width: 80%;
+}
+
+
+.presentation {
+  text-align: center;
+  margin:0 10%;
+  font-size: 15px;
+  height:40%;
+}
+
+
+/* =============================================================================
+   FOOTER
+============================================================================== */
+
+footer {
+  bottom: 0;
+  margin-top: 50px;
+  height:  200px;
+  width: auto;
+  padding: 48px 0;
+  background-image: url(../img/fond.jpg);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center;
+
+}
+
+
+.button-back-top a {
+  color: #423D39;
+  text-decoration: none;
+}
+
+.copyright {
+  padding: 80 0 0 0;
+
+}
+
+
+
+/* #############################################################################
+##############################   SPECIFIC PAGES   ##############################
+############################################################################## */
+
+/* =============================================================================
+   "Portfolio" page
+============================================================================== */
+
+.image_profil {
+  background-color: white;
+  height:300px;
+  width:400px;
+  margin:10px 9px;
+}
+
+.item {
+  width:400px;
+  height:600px;
+  padding:15px 15px;
+  margin:25px 25px;
+}
+
+.item_video {
+  width:400px;
+  height:220px;
+  padding:15px 15px;
+  margin:25px 25px;
+}
+
+/* Required, so that the images fit in the cell */
+.resize {
+  width:100%;
+  height:100%;
+  max-height: 600px;
+  max-width: 400px;
+}
+
+/* Required, so that the video previews fit in the cell */
+.resize_video {
+  width:100%;
+  height:100%;
+  max-height: 250px;
+  max-width: 400px;
+}
+
+.portfolio_header {
+  font-size: 42px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  margin:40px auto;
+  width:400px;
+  border-bottom: 2px solid #DDD;
+}
+
+.gallery {
+  text-align: center;
+  font-size: 22px;
+  margin: 40px auto;
+  padding-bottom: 5px;
+  width: 250px;
+  border-bottom: 2px solid #DDD;
+}
+
+.container_portfolio {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+
+/* =============================================================================
+   "À propos" page
+============================================================================== */
+
+.profile-photo {
+  display: block;
+  max-width:300px;
+  margin: 50px auto 50px;
+  border-bottom: 5px solid #b8aea5;
+  border-right: 5px solid #b8aea5;
+  border-radius: 200px;
+}
+
+
+/* =============================================================================
+   "Contact" page
+============================================================================== */
+
+.contact_form {
+  padding-left: 15%;
+}
