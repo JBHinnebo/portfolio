@@ -15,16 +15,16 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <!-- Setting of the authors -->
-  <meta name="author" content="Jean-Baptiste Hinnebo &amp; Hélèna Nguyen">
+  <meta name="author" content="Jean-Baptiste Hinnebo">
   <!-- Setting of the favicon -->
   <link rel="icon" href="favicon.ico">
   <!-- Setting of the page title, keywords & description for web-referencing -->
   <meta name="keywords" content="portfolio, portfolios, Jean-Baptiste Hinnebo">
   <meta name="description" content="Portfolios of Jean-Baptiste Hinnebo">
-  <title>Index - Portfolio  Jean-Baptiste Hinnebo</title>
+  <title>Portfolio JB - Portfolio  Jean-Baptiste Hinnebo</title>
 
   <!-- Setting of the font families -->
-  
+
   <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap core CSS & user custom styles -->
@@ -55,6 +55,7 @@
    Header which contains the navigation top-bar & the decorative header
 =========================================================================== -->
   <header class="header">
+
 
     <!-- Beginning of the small devices collapsed top-bar -->
     <nav class="navbar navbar-light">
@@ -115,20 +116,53 @@
 <!-- ===========================================================================
    Section whichs contains the content of the page
 =========================================================================== -->
-  <section>
-    <div class="presentation">
-      <h4>Welcome to our portfolio made in pairs.</h4>
-      <br>
-      <div class="horizontal_line"></div>
-      <br>
-      <p>You'll find there our respective  succinct description and past work.</p>
-      <p>This project was done as a part of the Web training course of Simplon Roubaix.</p>
-      <p>Feel free to leave us a message anytime simply by hitting the  "Contact" button up above.</p>
-      <p>You can also have a look at our GitHub repositories, which can be accessed through the navigation top-bar.</p>
-    </div>
+  <!-- Portfolio of... -->
+  <section class="portfolio_header">
+    <h3>Jean-Baptiste</h3>
+    <h2>HINNEBO</h2>
   </section>
 
+  <!-- Images list & projects -->
+  <section class="container_portfolio">
 
+
+    <h4 class="gallery">Site Internet</h4>
+    <div class="row">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <a href="https://www.youtube.com/watch?v=tI9i8U2M40Q"><img class="resize_video" src="img/JB/Boe.png" alt="Preview Boe video"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=zXF_GMYYM58"><img class="resize_video" src="img/JB/Nyarl.png" alt="Preview Nyarl video"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=jAwIoA3bLdI" ><img class="resize_video" src="img/JB/Golem.png" alt="Preview Golem video"></a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=Y8gDt_R3OnE"><img class="resize_video" src="img/JB/Bills.png" alt="Preview Bills video"></a>
+          </div>
+        </div>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="icon-prev" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="icon-next" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+
+
+
+  </section>
 
 
 <!-- ==========================================================================
@@ -138,9 +172,9 @@
     <aside class="button-back-top">
       <a href="#"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i>&nbsp;To the top</a>
     </aside>
-    <aside class="copyright">
-      <p><i class="fa fa-copyright" aria-hidden="true"></i> Jean-Baptiste Hinnebo</p>
-    </aside>
+    <div class="copyright">
+      <p><i class="fa fa-copyright" aria-hidden="true"></i>Jean-Baptiste Hinnebo</p>
+    </div>
   </footer>
 
 
