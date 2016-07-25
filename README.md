@@ -1,3 +1,3 @@
-# portfolio-JBH-LNA
+# portfolio-JBH
 
-Portfolios of Jean-Baptiste Hinnebo & Hélèna Nguyen, made with passion & enthusiasm in pairs.
+Portfolios of Jean-Baptiste Hinnebo
