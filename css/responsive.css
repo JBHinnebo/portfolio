@@ -1,0 +1,9 @@
+@media screen only and (min-width:450px){
+
+  #carousel-example-generic {
+
+    width: 400px;
+    height:275px;
+  }
+
+}

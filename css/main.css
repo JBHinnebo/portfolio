@@ -32,12 +32,12 @@ p {
 }
 
 
+
 /* =============================================================================
    HEADER
 ============================================================================== */
 
 .header {
-  background-image: url(../img/fond.jpg);
   background-size: cover;
   border-bottom: 40px solid #DDD;
 }
@@ -74,7 +74,7 @@ p {
 
 /* Paragraph below the h1 in the .Entete */
 .subtitle {
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 
@@ -86,7 +86,7 @@ p {
 .decoration {
   height:40px;
   width:100%;
-  background-image: url(../img/fond.jpg);
+  background-image: url(../img/);
   background-size: cover;
   background-position: center;
   margin-bottom: 50px;
@@ -141,7 +141,74 @@ footer {
 ############################################################################## */
 
 /* =============================================================================
-   "Portfolio" page
+   "Portfolio MENUE" page
+============================================================================== */
+
+.resizecolomn{
+
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding: 20px
+
+}
+
+
+.image_VIDEO{
+
+  background-image: url(../img/JB/R.jpg);
+  background-size:contain;
+  width: 200px;
+  height: 150px;
+  margin:0 auto 20px;
+}
+
+
+.image_SITESINTERNET{
+
+  background-image: url(../img/JB/R.jpg);
+  background-size:contain;
+  width: 200px;
+  height: 150px;
+  margin:0 auto 20px;
+}
+
+
+.image_CANEVAS{
+
+  background-image: url(../img/JB/R.jpg);
+  background-size:contain;
+  width: 200px;
+  height: 150px;
+  margin:0 auto 20px;
+
+}
+
+
+.image_3D-MODELS{
+
+  background-image: url(../img/JB/R.jpg);
+  background-size:contain;
+  width: 200px;
+  height: 150px;
+  margin:0 auto 20px;
+}
+
+.return_menue {
+  text-align: center;
+  width:80%;
+  margin:20px 10%;
+  font-size: 14px;
+}
+
+.return_menue a{
+
+  margin:20px auto;
+  font-size: 14px;
+  color: #423d39;
+}
+
+/* =============================================================================
+   "Portfolio" pages
 ============================================================================== */
 
 .image_profil {
@@ -164,6 +231,7 @@ margin: 20px;
 }
 
 .carousel{
+  margin: auto;
     height: 500px;
     width:900px;
 
