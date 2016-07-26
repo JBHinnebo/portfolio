@@ -67,9 +67,10 @@ p {
 
 /* First level heading */
 .h1 {
+  font-family: 'Rubik', sans-serif;
   text-align: center;
   margin: auto;
-  font-size: 4em;
+  font-size: 40px;
 }
 
 /* Paragraph below the h1 in the .Entete */
@@ -157,7 +158,7 @@ footer {
 
   background-image: url(../img/JB/R.jpg);
   background-size:contain;
-  width: 200px;
+  width: 270px;
   height: 150px;
   margin:0 auto 20px;
 }
@@ -167,7 +168,7 @@ footer {
 
   background-image: url(../img/JB/R.jpg);
   background-size:contain;
-  width: 200px;
+  width: 270px;
   height: 150px;
   margin:0 auto 20px;
 }
@@ -175,9 +176,9 @@ footer {
 
 .image_CANEVAS{
 
-  background-image: url(../img/JB/R.jpg);
+  background-image: url(../img/JB/orangé_aube.png);
   background-size:contain;
-  width: 200px;
+  width: 270px;
   height: 150px;
   margin:0 auto 20px;
 
@@ -186,9 +187,9 @@ footer {
 
 .image_3D-MODELS{
 
-  background-image: url(../img/JB/R.jpg);
+  background-image: url(../img/3d/moine.jpg);
   background-size:contain;
-  width: 200px;
+  width: 270px;
   height: 150px;
   margin:0 auto 20px;
 }
